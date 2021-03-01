@@ -8,11 +8,11 @@ let a1 = 'any';
 while (a1 === 'any') {
   if (q1.toLowerCase() === 'yes' || q1.toLowerCase() === 'y') {
     alert('Your answer is incorrect');
-    console.log('The first question his answer is incorrect');
+    // console.log('The first question his answer is incorrect');
     a1 = 0;}
   else if (q1.toLowerCase() === 'no' || q1.toLowerCase() === 'n') {
     alert('Your answer is correct');
-    console.log('The first question answered correctly');
+    // console.log('The first question answered correctly');
     a1 = 1;}
   else {
     alert('Try answer with (yes or no )!!!');
@@ -26,11 +26,11 @@ let a2 = 'any';
 while (a2 === 'any') {
   if (q2.toLowerCase() === 'yes' || q2.toLowerCase() === 'y') {
     alert('Your answer is correct');
-    console.log('The second question answered correctly');
+    // console.log('The second question answered correctly');
     a2 = 1;}
   else if (q2.toLowerCase() === 'no' || q2.toLowerCase() === 'n') {
     alert('Your answer is incorrect');
-    console.log('The second question his answer is incorrect');
+    // console.log('The second question his answer is incorrect');
     a2 = 0;}
   else {
     alert('Try answer with (yes or no )!!!');
@@ -44,11 +44,11 @@ let a3 = 'any';
 while (a3 === 'any') {
   if (q3.toLowerCase() === 'yes' || q3.toLowerCase() === 'y') {
     alert('Your answer is correct');
-    console.log('The third question answered correctly');
+    // console.log('The third question answered correctly');
     a3 = 1;}
   else if (q3.toLowerCase() === 'no' || q3.toLowerCase() === 'n') {
     alert('Your answer is incorrect');
-    console.log('The third question his answer is incorrect');
+    // console.log('The third question his answer is incorrect');
     a3 = 0;}
   else {
     alert('Try answer with (yes or no )!!!');
@@ -62,11 +62,11 @@ let a4 = 'any';
 while (a4 === 'any') {
   if (q4.toLowerCase() === 'yes' || q4.toLowerCase() === 'y') {
     alert('Your answer is correct');
-    console.log('The fourth question answered correctly');
+    // console.log('The fourth question answered correctly');
     a4 = 1;}
   else if (q4.toLowerCase() === 'no' || q4.toLowerCase() === 'n') {
     alert('Your answer is incorrect');
-    console.log('The fourth question his answer is incorrect');
+    // console.log('The fourth question his answer is incorrect');
     a4 = 0;}
   else {
     alert('Try answer with (yes or no )!!!');
@@ -80,11 +80,11 @@ let a5 = 'any';
 while (a5 === 'any') {
   if (q5.toLowerCase() === 'yes' || q5.toLowerCase() === 'y') {
     alert('Your answer is incorrect');
-    console.log('The fifth question his answer is incorrect');
+    // console.log('The fifth question his answer is incorrect');
     a5 = 0;}
   else if (q5.toLowerCase() === 'no' || q5.toLowerCase() === 'n') {
     alert('Your answer is correct');
-    console.log('The fifth question answered correctly');
+    // console.log('The fifth question answered correctly');
     a5 = 1;}
   else {
     alert('Try answer with (yes or no )!!!');
