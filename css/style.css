@@ -1,0 +1,15 @@
+main,header,footer{
+    background-color: lightskyblue;
+    margin: 5px;
+}
+h1{
+    color: gray;
+    font-size: initial;
+}
+h2{
+    color:lightseagreen;
+}
+h3{
+    color: green;
+}
+

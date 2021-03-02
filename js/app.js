@@ -90,13 +90,50 @@ while (a5 === 'any') {
     alert('Try answer with (yes or no )!!!');
     q5 = prompt('Is Ahmed goal to become a lawyer ?');}
 
+}
+let q6;
+let a6=0;
+for(let i=0; i<4;i++){
+  q6 = prompt('How old is Ahmed ?');
+  if(parseInt(q6)===23){
+    alert('You guessed it right');
+    i=4;
+    a6=1;
+  }else if(parseInt(q6)<23){
+    alert('Try again !! too low');
+    a6=0;
+
+  }else if(parseInt(q6)>23){
+    alert('Try again !! too high');
+    a6=0;
+  }
 
 }
+if(a6===0){
+  alert('You could not guess how old Ahmed, Ahmed is 23 years old');
+}
+let q7;
+let favegame=['rust','minecraft','rome total war','battlefield 4','battlefield 1','grand theft auto v','league of legends'];
+console.log(favegame);
+let a7=0;
+for(let ii=0; ii<6;ii++){
+  q7 = prompt('Give me name of a video game, Ahmed like it');
+  for(let iii=0;iii<=7;iii++){
+    if(q7.toLowerCase()===favegame[parseInt(iii)]){
+      alert('You guessed it right');
+      a7=1;
+      ii=6;
+      iii=8;
+    }
+  }
+}
+if(a7===0){
+  alert('You could not guess the video games that Ahmed liked');
+}
+alert('you will see all the possible correct answers in the main page');
 
-let mark= parseInt(a1)+ parseInt(a2)+parseInt(a3)+ parseInt(a4)+parseInt(a5);
-alert(n +' You guessed '+mark +'/5');
+let mark= a1+a2+a3+a4+a5+a6+a7;
+alert(n +' You guessed '+mark +'/7');
 
 let a = document.getElementById('n');
 a.innerText = n ;
-
-
