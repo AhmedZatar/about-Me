@@ -13,3 +13,10 @@ h3{
     color: green;
 }
 
+ul{
+    list-style-type: circle;
+}
+
+ol{
+    list-style-type: lower-alpha;
+}
