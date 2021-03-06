@@ -9,14 +9,14 @@ function noCorrect(q){
 
   if (q.toLowerCase() === 'yes' || q.toLowerCase() === 'y') {
     alert('Your answer is incorrect');
-    console.log(mark);
+
   }
   else if (q.toLowerCase() === 'no' || q.toLowerCase() === 'n') {
     alert('Your answer is correct');
     mark++;
-    console.log(mark);
 
   }
+
   else {
     alert('Wrong input !!!');
   }
@@ -28,11 +28,11 @@ function yesCorrect(q){
   if (q.toLowerCase() === 'yes' || q.toLowerCase() === 'y') {
     alert('Your answer is correct');
     mark++;
-    console.log(mark);
+
   }
   else if (q.toLowerCase() === 'no' || q.toLowerCase() === 'n') {
     alert('Your answer is incorrect');
-    console.log(mark);
+
 
   }
   else {
@@ -59,7 +59,7 @@ function question6(q){
       alert('You guessed it right');
       i=4;
       mark++;
-      console.log(mark);
+
     }else if(parseInt(q)<23){
       alert('Try again !! too low');
       q = prompt('How old is Ahmed ?');
@@ -86,7 +86,7 @@ function question7(q){
         ii=6;
         iii=8;
         mark++;
-        console.log(mark);
+
       }
     }if (ii<5){
       alert('Wrong answer try agian');

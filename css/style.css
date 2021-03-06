@@ -1,16 +1,27 @@
 main,header,footer{
-    background-color: lightskyblue;
-    margin: 5px;
+    background-color: blue;
+
 }
 h1{
     color: gray;
     font-size: xx-large;
+    border: 5px;
+    margin: 10px;
+    padding: 10px;
 }
 h2{
     color:lightseagreen;
+    border: 5px;
+    margin: 10px;
+    padding: 10px;
+    font-size: large;
 }
 h3{
     color: green;
+        border: 5px;
+        margin: 10px;
+        padding: 10px;
+        font-size: large;
 }
 
 ul{
@@ -20,3 +31,44 @@ ul{
 ol{
     list-style-type: decimal ;
 }
+body { 
+    color: white;
+    background-color: black; 
+    }
+
+    img {
+        width: 400px;
+        height: 600px;
+        border: 5px;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        left: 500px;
+    }
+
+    p{
+        border: 5px;
+        margin: 10px;
+        padding: 10px;
+        font-size: large;
+        
+    }
+
+    .inline li{
+        display: inline-block;
+        margin: 20px;
+        font-size: large;
+        font-size: large;
+
+    }
+
+    .changeplace{
+        position: relative;
+        bottom: 670px;
+        font-size: large;
+    }
+    .changeplace2 li{
+        position: relative;
+        bottom: 670px;
+        font-size: large;
+    }
