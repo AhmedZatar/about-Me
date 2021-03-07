@@ -100,9 +100,8 @@ function question7(q){
 question7(ar[7]);
 if(a7===0){
   alert('You could not guess the video games that Ahmed liked');
-  alert('the possible correct answers is : rust, minecraft, rome total war, battlefield 4, battlefield 1, grand theft auto v, league of legends');
 }
-alert('you will see all the possible correct answers in the main page');
+alert('the possible correct answers is : rust, minecraft, rome total war, battlefield 4, battlefield 1, grand theft auto v, league of legends');
 
 alert(ar[0] +' You guessed '+mark +'/7');
 let a = document.getElementById('n');
